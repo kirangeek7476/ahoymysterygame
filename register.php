@@ -41,7 +41,7 @@
       <div class="inputBox">
         <input type="submit" value="create account">
       </div>
-      <p>already a member? <a href="login.php"
+      <p>already a member? <a href="index.php"
       class=login> login</a></p>
     </div>
   </div>
