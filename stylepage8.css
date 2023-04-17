@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1f2028;
+  background-size: cover;
+}
+.manus{
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.manus p{
+  position: relative;
+  left: -600px;
+  font-size: 45px;
+  height: 250px;
+  width: 380px;
+  color: rgb(35, 35, 32);
+}
+img{
+  background-color: #1f2028;
+}

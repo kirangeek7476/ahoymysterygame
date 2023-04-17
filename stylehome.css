@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Tilt+Prism&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tilt Prism', cursive;
+}
+body{
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background: #1f2028;
+  background-size: cover;
+}
+ .startbut{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color:#1b1d29 ;
+  font-family: 'Raleway', sans-serif;
+  height: 65px;
+  width: 250px;
+  left: 590px;
+  top: 00px;
+  font-size: x-large;
+  box-shadow: 5px 5px 10px rgb(176, 146, 146);
+  color:antiquewhite;
+  border-radius: 25px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.startbut:hover{
+  box-shadow: 25px 25px 110px rgb(121, 105, 105);
+  background-color: #1b1d29;
+}
+section .waves .ship{
+  position: relative;
+  display: inline-block;
+  top: -60px;
+  left: -50px;
+}
+section
+{
+  position: relative;
+  width:100%;
+}
+section .waves
+{
+  position: relative;
+}
+section .waves .wave
+{
+  position:absolute;
+  left: 0;
+  bottom: 0;
+  width: 125%;
+  height: 100px;
+  background: url(wave.png);
+  background-size: 1000px 100px;
+
+}
+section .waves .wave#wave1{
+  opacity: 1;
+  bottom: 0;
+  z-index: 1000;
+  animation: animate 4s linear infinite;
+}
+section .waves .wave#wave2{
+  opacity: 0.5;
+  bottom: 10px;
+  z-index: 999;
+  animation: animate2 2s linear infinite;
+}
+section .waves .wave#wave3{
+  opacity: 0.2;
+  bottom: 15px;
+  z-index: 998;
+  animation: animate 4s linear infinite;
+}
+section .waves .wave#wave4{
+  opacity: 0.7;
+  bottom: 20px;
+  z-index: 999;
+  animation: animate2 2s linear infinite;
+}
+@keyframes animate{
+  0%{
+    background-position-x:1000px ;
+  }
+  100%{
+    background-position-x: 0px;
+  }
+}
+@keyframes animate2{
+  0%{
+    background-position-x:0px ;
+  }
+  100%{
+    background-position-x: 1000px;
+  }
+}
+@keyframes animate3{
+  0%{
+    opacity: 1;
+  }
+  20%{
+    opacity: 0.1;
+  }
+  40%{
+    opacity: 0.8;
+  }
+  60%{
+    opacity: 0.4;
+  }
+  80%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0.7;
+  }
+}
+.stars{
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  mix-blend-mode: screen;
+  pointer-events:visibleFill;
+  animation: animate3 2s linear infinite;
+}
+h2{
+  position: absolute;
+  bottom: 60vh;
+  transform: translateY(50%);
+  width: 100%;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 800;
+  text-transform: uppercase;
+  font-size: 10em;
+
+}
+.mount{
+  position: relative;
+  bottom: -20px;
+}

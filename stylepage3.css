@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1f2028;
+  background-size: cover;
+}
+.storydiv{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  left: -70px;
+}
+.storydiv .table{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap: 70px;
+  background-color: #1f2028;
+}
+.storydiv .table img{
+  position: relative;
+  box-shadow: 0px 2px 20px rgb(166, 164, 149);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.storydiv .table img:hover{
+  box-shadow: 25px 25px 205px rgb(211, 208, 182);
+}
+.storydiv .table img:active{
+  opacity: 0;
+}
+.storydiv .table span{
+  background-color: #1f2028;
+  color: antiquewhite;
+  border: none;
+  font-size: 22px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.storydiv .table .sub{
+  background-color: #1f2028;
+  color: antiquewhite;
+  border: none;
+  width: 100px;
+  height: 50px;;
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+  left: -160px;
+  top: 100px;
+  transition: 0.5s;
+}
+.storydiv .table input:hover
+{
+  background-color: antiquewhite;
+  color: #1f2028;
+}
+.storydiv .table .ans{
+  background-color: #1f2028;
+  color: antiquewhite;
+  border: none;
+  width: 300px;
+  height: 50px;;
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+h1{
+  position: relative;
+  top: -260px;
+  left: 25px;
+  width: 500px;
+  text-align: left;
+  }

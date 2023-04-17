@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+  background: #1f2028;
+  background-size: cover;
+}
+.heading{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top:-290px;
+  left:600px;
+  color: antiquewhite;
+}
+.pipediv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.pipediv .pipe1{
+  position: relative;
+  top: -100px;
+  left: 290px;
+}
+.pipediv .pipe2{
+  position: relative;
+  top: 75px;
+  left: 140px;
+}
+.pipediv .pipe3{
+  position: relative;
+  top: 10px;
+  left: -5px;
+}
+.pipediv .pipe4{
+  position: relative;
+  top: -280px;
+  left: -190px;
+  transform: rotate(-90deg);
+}
+.pipediv .pipe5{
+  position: relative;
+  top: -53px;
+  left: -135px;
+}
+.pipediv .pipe6{
+  position: relative;
+  top: 290px;
+  left: -410px;
+  transform: rotate(90deg);
+}
+input{
+  position: relative;
+  left: 600px;
+  width: 200px;
+  height: 50px;
+  border: 2px solid gainsboro;
+  background-color: #1f2028;
+  color: aliceblue;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 25px;
+}
+input:hover{
+  background-color: rgb(209, 182, 182);
+  color: #131419;
+}
