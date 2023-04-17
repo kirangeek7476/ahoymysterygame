@@ -23,7 +23,7 @@ if($res->num_rows>0)
 else
 {  
     echo '<script>alert("Username or Password is invalid");
-    window.location.href="login.php";</script>';
+    window.location.href="index.php";</script>';
 }
 $conn->close();
 ?>
