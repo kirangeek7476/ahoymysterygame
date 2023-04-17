@@ -6,7 +6,7 @@ if($conn->connect_error)
 }
 $user=$_POST['username'];
 $pass=$_POST['pswd'];
-if(isset($_POST['cb']) && $user=='ADMIN' && $pass=='PASSWORD')
+if(isset($_POST['cb']) && $user=='ADMIN@gmail.com' && $pass=='PASSWORD')
 {
     echo "<script>alert('Hello Admin');
     window.location.href='dashboard.php';</script>";
