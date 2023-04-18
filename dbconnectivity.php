@@ -31,7 +31,7 @@ else
       if($res)
     {
         echo '<script>alert("Successfully Registered");
-        window.location.href="login.php";</script>';
+        window.location.href="index.php";</script>';
     }
     else
     {
